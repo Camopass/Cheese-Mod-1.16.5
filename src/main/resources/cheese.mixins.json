@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.camopass.cheese.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "mixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

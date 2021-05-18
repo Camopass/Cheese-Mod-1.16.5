@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "cheese",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Cheese",
+  "description": "This is my first mod. It will be bad.",
   "authors": [
-    "Me!"
+    "Camopass"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,16 +14,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/cheese/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleModKt::init"
+      "com.camopass.cheese.CheeseMainKt::init"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "cheese.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.8.7",
